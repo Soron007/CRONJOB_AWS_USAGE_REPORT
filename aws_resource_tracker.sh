@@ -2,7 +2,7 @@
 
 EMAIL="mitrasouvik123@gmail.com"
 
-# Check if AWS CLI is installed
+# Checking if AWS CLI is installed
 if ! command -v aws &> /dev/null; then
     echo "AWS CLI is not installed. Please install it before running this script."
     exit 1
